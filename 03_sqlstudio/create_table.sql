@@ -1,9 +1,9 @@
 create database if not exists bts;
 use bts;
 
-drop table if exists flights;
+drop table if exists flights1;
 
-create table flights (
+create table flights1 (
   FL_DATE date,
   UNIQUE_CARRIER varchar(16),
   AIRLINE_ID varchar(16),
